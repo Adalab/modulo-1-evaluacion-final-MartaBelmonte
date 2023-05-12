@@ -5,12 +5,25 @@
 }
 
 header {
-    background-color:#0271bc ;
-        height: 7vh;
-        display: flex;
-        justify-content: space-between;
-        position: sticky;
-        top: 0;
-        margin-left: 20px;
+background-color:#0271bc ;
+height: 7vh;
+display: flex;
+justify-content: space-between;
+position: sticky;
+top: 0;
 }
 
+.hero {
+background-image: url(../images/cover.jpg);
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: center;
+gap: 5vh;
+height: 120vh;
+color: white;
+}
+
+nav {
+   margin: 10px;
+}

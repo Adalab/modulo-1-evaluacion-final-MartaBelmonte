@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color:#0271bc ;
+        height: 7vh;
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        margin-left: 20px;
+}
+

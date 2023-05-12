@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -52,32 +52,41 @@ nav {
 }
 
 /* seccion 1*/
+
 .section1 {
+    margin: 35px 15px;
     display: flex;
     flex-direction: column;
+    gap: 15px;
+
 }
 .psec1{
     color: #8ccbea;
+    font-family: Roboto;
+    
 }
 
 .artsec1 {
     color: #4a4a4a;
+    font-family: Roboto;
 }
 
 .boton {
     display: flex;
     flex-direction: column;
+    border-radius: 20px;
     height: 45px;
     width: 76px;
+    border: solid 2px #f26002;
     
 }
+
 .go {
-    background-color: #f26002
-    border-radius: 5px;
-    border-radius: 5vh;
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
+    margin: auto;
+    color: #f26002;
 }
 
 /* seccion2 */
@@ -90,4 +99,15 @@ nav {
 footer {
     background-color: #304268;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto;
+    gap: 20px;
+    margin: 35px 15px;
+    align-content: center;
+}
+
+.artfooter1, .artfooter2 {
+    text-transform: uppercase;
 }

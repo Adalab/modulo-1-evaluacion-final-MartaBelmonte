@@ -4,9 +4,20 @@
     box-sizing: border-box;
 }
 
+:root{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.ico-burguer {
+width: 16px;
+height: 14px;
+}
+
 header {
 background-color:#0271bc ;
-height: 7vh;
+width: 44px;
+height: 44px;
 display: flex;
 justify-content: space-between;
 position: sticky;
@@ -24,6 +35,31 @@ height: 120vh;
 color: white;
 }
 
+.divhero{
+    text-align: center;
+}
+h1 {
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
 nav {
    margin: 10px;
+}
+
+.psec1{
+    color: #8ccbea;
+}
+
+.artsec1 {
+    color: #4a4a4a;
+}
+
+.section2 {
+    background-color: #eff9ff;
+}
+
+footer {
+    background-color: #304268;
+    color: white;
 }

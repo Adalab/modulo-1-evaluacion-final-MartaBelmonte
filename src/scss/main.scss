@@ -4,13 +4,6 @@
     box-sizing: border-box;
 }
 
-:root{
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Slab', serif;
-}
-
-/* */
-
 /* header */
 .ico-burguer {
 width: 16px;
@@ -25,6 +18,8 @@ display: flex;
 justify-content: space-between;
 position: fixed;
 top: 0;
+justify-content: center;
+align-items: center;
 }
 
 .hero {
@@ -45,12 +40,12 @@ color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 60px;
-    
+    margin: 50px 122px 0 140px;
 }
-img.ico-scroll{
-text-align: center;
 
+
+.ico-scroll{
+text-align: center;
 }
 
 h1.title {
@@ -59,6 +54,7 @@ font-family: 'Roboto Slab', serif;
 line-height: 55px;
 text-transform: uppercase;
 display: flex;
+margin-top: 90%;
 
 }
 
@@ -151,9 +147,7 @@ margin-left: 40px;
     height: 63px;
     align-items: center;
     text-align: justify;
-    
-    
-    
+ 
 }
 
 .boton2 {
@@ -188,9 +182,15 @@ footer {
     gap: 20px;
     align-content: center;
 }
-.article1, .article2, .article3, .article4{
-    display: flex;    
+.article1 { 
+    margin-top: 40px;
 }
+
+.article2 {
+    margin: 40px 86px 20px 87;
+}
+
+
 .artfooter1, .artfooter2 {
     text-transform: uppercase;
 }

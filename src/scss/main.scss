@@ -39,19 +39,19 @@ color: white;
 }
 
 .title {
-    font-size: 42px;
-    font-family: 'Roboto Slab', serif;
-    line-height: 55px;
-    text-transform: uppercase;
+font-size: 42px;
+font-family: 'Roboto Slab', serif;
+line-height: 55px;
+text-transform: uppercase;
 }
 
 .phero {
-    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 .divhero {
-    margin: 50%;
-    text-align: center;
+margin: 50%;
+ text-align: center;
 }
 
 nav {
@@ -101,6 +101,58 @@ nav {
     background-color: #eff9ff;
 }
 
+.sec2h2 {
+font-family: 'Roboto Slab', serif;
+font-size: 24px;
+padding: 30px 15px 15px;
+height: 60px;
+}
+
+.item{
+display: grid;
+    height: 40px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.item1, .item3, .item5 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    width: 180px;
+    height: 30px;
+    margin: 20px 2px 0;
+    align-items: center;
+}
+.item2, .item4, .item6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 180px;
+    height: 63px;
+    margin: 5px 2px 0;
+}
+
+.boton2 {
+    background-color: #f26002 ;
+    width: 184px;
+    height: 45px;
+    margin: 45px 53px 0;
+    border-radius: 22px;
+    margin: auto;
+    text-align: center; 
+    margin-top: 45px;     
+}
+
+.morereasons {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 45px;
+    color: white;
+    font-weight: bold;
+}
+
 
 /*footer */
 footer {
@@ -117,9 +169,7 @@ footer {
     align-content: center;
 }
 .article1, .article2, .article3, .article4{
-    display: flex;
-    
-        
+    display: flex;    
 }
 .artfooter1, .artfooter2 {
     text-transform: uppercase;
@@ -127,4 +177,5 @@ footer {
 
 .artfooter1, .artfooter2, .artfooter3, .artfooter4 {
     text-align: center;
+    list-style: none;
 }

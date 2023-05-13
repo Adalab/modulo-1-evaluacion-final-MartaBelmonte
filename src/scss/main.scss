@@ -32,43 +32,54 @@ top: 0;
 background-image: url(../images/cover.jpg);
 background-position: center;
 display: flex;
+width: 320px;
+height: 568px;
 flex-wrap: wrap;
 justify-content: center;
 gap: 5vh;
 color: white;
 }
 
-.ballscroll{ 
-    background-color: white;
-    border-radius: 22px;
+.circle{ 
     width: 45px;
     height: 45px;
-    margin-bottom: 53px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    
 }
 img.ico-scroll{
-background-color: red;
 text-align: center;
-    margin: auto;
+
 }
 
-.title {
+h1.title {
 font-size: 42px;
 font-family: 'Roboto Slab', serif;
 line-height: 55px;
 text-transform: uppercase;
+display: flex;
+justify-content: center;
+text-align: center;
 }
 
-.phero {
+p.phero {
 font-family: 'Roboto', sans-serif;
+display: flex;
+justify-content: center;
+text-align: center;
 }
 
 .divhero {
-margin: 50%;
- text-align: center;
+text-align: center;
+margin-bottom: 60%;
 }
 
 nav {
-   margin: 10px;
+margin: 10px;
 }
 
 /* seccion 1*/
@@ -112,6 +123,8 @@ nav {
 /* seccion2 */
 .section2 {
     background-color: #eff9ff;
+    display: grid;
+    justify-items: center;
 }
 
 .sec2h2 {
@@ -123,9 +136,10 @@ height: 60px;
 
 .item{
 display: grid;
-    height: 40px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 40px;
+height: 40px;
+grid-template-columns: 1fr;
+grid-template-rows: 40px;
+margin-left: 40px;
 
 }
 
@@ -135,6 +149,7 @@ display: grid;
     width: 180px;
     height: 30px;
     align-items: center;
+    text-align: justify;
     
 }
 .item2, .item4, .item6 {
@@ -142,6 +157,8 @@ display: grid;
     font-size: 18px;
     width: 180px;
     height: 63px;
+    
+    
     
 }
 

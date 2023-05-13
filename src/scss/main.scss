@@ -38,6 +38,19 @@ gap: 5vh;
 color: white;
 }
 
+.ballscroll{ 
+    background-color: white;
+    border-radius: 22px;
+    width: 45px;
+    height: 45px;
+    margin-bottom: 53px;
+}
+img.ico-scroll{
+background-color: red;
+text-align: center;
+    margin: auto;
+}
+
 .title {
 font-size: 42px;
 font-family: 'Roboto Slab', serif;
@@ -113,9 +126,7 @@ display: grid;
     height: 40px;
     grid-template-columns: 1fr;
     grid-template-rows: 40px;
-    justify-content: center;
-    text-align: center;
-    
+
 }
 
 .item1, .item3, .item5 {
@@ -123,26 +134,24 @@ display: grid;
     font-size: 18px;
     width: 180px;
     height: 30px;
-    margin: 20px 2px 0;
     align-items: center;
+    
 }
 .item2, .item4, .item6 {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     width: 180px;
     height: 63px;
-    margin: 5px 2px 0;
+    
 }
 
 .boton2 {
     background-color: #f26002 ;
     width: 184px;
     height: 45px;
-    margin: 45px 53px 0;
     border-radius: 22px;
     margin: auto;
     text-align: center; 
-    margin-top: 45px;     
 }
 
 .morereasons {
@@ -151,6 +160,7 @@ display: grid;
     line-height: 45px;
     color: white;
     font-weight: bold;
+    
 }
 
 

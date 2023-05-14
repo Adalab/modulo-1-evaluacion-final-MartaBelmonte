@@ -55,7 +55,7 @@ font-family: 'Roboto Slab', serif;
 line-height: 55px;
 text-transform: uppercase;
 display: flex;
-margin-top: 90%;
+margin: 240px 0 10px 15px;
 
 }
 
@@ -166,9 +166,15 @@ height: 60px;
     line-height: 45px;
     color: white;
     font-weight: bold;
-    
 }
 
+.ico-arrow {
+    width: 45px;
+    height: 45px;
+    margin: 200px 145px 310px 140px;
+    background-color: white;
+    border-radius: 50%;
+}
 
 /*footer*/
 footer {
@@ -248,6 +254,9 @@ footer {
     }
     .sec2h2 {
          font-size: 26px;
+    }
+    .ico-arrow{
+        margin: 50px 361px 217px 362px;
     }
     .article1 {
         order: 2; 

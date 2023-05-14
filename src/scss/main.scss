@@ -106,6 +106,9 @@ margin-bottom: 60%;
     
 }
 
+a.go {
+    text-decoration: none;
+}
 .go {
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
@@ -160,12 +163,14 @@ height: 60px;
     margin-top: 200px;
 }
 
+a.morereasons{
+    text-decoration: none;
+}
 .morereasons {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     line-height: 45px;
     color: white;
-    font-weight: bold;
 }
 
 .ico-arrow {
@@ -201,9 +206,15 @@ footer {
     text-transform: uppercase;
 }
 
+a.link {
+    text-decoration: none;
+    color: white;
+}
+
 .artfooter1, .artfooter2, .artfooter3, .artfooter4 {
     text-align: center;
     list-style: none;
+
 }
 
 @media screen and (min-width: 768px){

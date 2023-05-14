@@ -197,7 +197,6 @@ footer {
     margin: 40px 86px 20px 87;
 }
 
-
 .artfooter1, .artfooter2 {
     text-transform: uppercase;
 }
@@ -260,7 +259,6 @@ footer {
     }
     .article1 {
         order: 2; 
-        
     }
     .article2 {
         order: 3; 
@@ -269,7 +267,6 @@ footer {
         flex-direction: row;
         justify-content: space-around;
     }
-    
 }
 @media screen and (min-width: 1280px) {
     h1.title {

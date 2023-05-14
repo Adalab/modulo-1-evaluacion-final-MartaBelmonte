@@ -224,12 +224,23 @@ footer {
     .section2 {
         height: 400px;
     }
+    .item1,.item3, .item5 {
+        font-size: 24px;
+        width: 210px;
+        height: 30px;
+     }
+    .item2, .item4, .item6 {
+        font-size: 20px;
+        }
     .boton2 {
         margin-top: 30px;
     }
     .sec2grid {
         display: flex;
     column-gap: 70px;
+    }
+    .divtext {
+        width: 200px;
     }
     .sec2h2 {
          font-size: 26px;
@@ -239,4 +250,37 @@ footer {
         justify-content: space-around;
     }
     
+}
+@media screen and (min-width: 1280px) {
+    .hero {
+        background-size: cover;
+    }
+    h1.title {
+        font-size: 100px;
+        line-height: 132px;
+        margin-top: 70%;
+        margin: 550px 250px 0 231px;
+    }
+    .circle {
+        margin: 30px 342px 0 615px;
+    }
+    .section1 {
+        height: 230px;
+        margin: 30px 300px 0;
+    }
+    .psec2 {
+        font-size: 32px;
+    }
+    .boton {
+        width: 160px;
+    }
+    .boton2 {
+        width: 255px;
+    }
+    footer {
+        justify-content: center;
+    }
+    .article1, .article2, .article3, .article4 {
+        margin: 40px;
+    }
 }

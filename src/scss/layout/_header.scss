@@ -1,5 +1,65 @@
-.page__header {
+.ico-burguer {
+  width: 16px;
+  height: 14px;
+}
+
+header {
+  background-color: #0271bc;
+  width: 44px;
+  height: 44px;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  gap: 5vh;
+  color: white;
+}
+
+.circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 122px 0 140px;
+}
+
+
+.ico-scroll {
+  text-align: center;
+}
+
+h1.title {
+  font-size: 42px;
+  font-family: 'Roboto Slab', serif;
+  line-height: 55px;
+  text-transform: uppercase;
+  display: flex;
+  margin: 240px 0 10px 15px;
+
+}
+
+p.phero {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+
+}
+
+.divhero {
+  text-align: center;
+  margin-bottom: 60%;
 }

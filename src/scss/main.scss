@@ -5,35 +5,36 @@
 }
 
 /* header */
+
 .ico-burguer {
-width: 16px;
-height: 14px;
+    width: 16px;
+    height: 14px;
 }
 
 header {
-background-color:#0271bc ;
-width: 44px;
-height: 44px;
-display: flex;
-justify-content: space-between;
-position: fixed;
-top: 0;
-justify-content: center;
-align-items: center;
+    background-color: #0271bc;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero {
-background-image: url(../images/cover.jpg);
-background-size: cover;
-background-position: center;
-display: flex;
-width: 100%;
-height: 100vh;
-gap: 5vh;
-color: white;
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    gap: 5vh;
+    color: white;
 }
 
-.circle{ 
+.circle {
     width: 45px;
     height: 45px;
     border-radius: 50%;
@@ -45,30 +46,47 @@ color: white;
 }
 
 
-.ico-scroll{
-text-align: center;
+.ico-scroll {
+    text-align: center;
 }
 
 h1.title {
-font-size: 42px;
-font-family: 'Roboto Slab', serif;
-line-height: 55px;
-text-transform: uppercase;
-display: flex;
-margin: 240px 0 10px 15px;
+    font-size: 42px;
+    font-family: 'Roboto Slab', serif;
+    line-height: 55px;
+    text-transform: uppercase;
+    display: flex;
+    margin: 240px 0 10px 15px;
 
 }
 
 p.phero {
-font-family: 'Roboto', sans-serif;
-display: flex;
-justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
 
 }
 
 .divhero {
-text-align: center;
-margin-bottom: 60%;
+    text-align: center;
+    margin-bottom: 60%;
+}
+
+.header {
+    background-color: #0271bc;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+
+    &__icoburguer {
+        width: 16px;
+        height: 14px;
+    }
 }
 
 /* seccion 1*/
@@ -127,13 +145,12 @@ a.go {
     justify-items: center;
     grid-template-columns: 1fr;
     grid-template-rows: 120px 120px 90px;
+    &__sec2h2 {
+            font-family: 'Roboto Slab', serif;
+            font-size: 24px;
+            padding: 30px 15px 15px;
+            height: 60px;      
 }
-
-.sec2h2 {
-font-family: 'Roboto Slab', serif;
-font-size: 24px;
-padding: 30px 15px 15px;
-height: 60px;
 }
 
 .item1, .item3, .item5 {
@@ -153,12 +170,12 @@ height: 60px;
 }
 
 .boton2 {
-    background-color: #f26002 ;
+    background-color: #f26002;
     width: 184px;
     height: 45px;
     border-radius: 22px;
     margin: 20px 0 50px;
-    text-align: center; 
+    text-align: center;
     margin-top: 200px;
 }
 
@@ -172,7 +189,7 @@ a.morereasons{
     color: white;
 }
 
-.ico-arrow {
+.icoarrow {
     width: 45px;
     height: 45px;
     margin: 200px 145px 310px 140px;
@@ -192,7 +209,7 @@ footer {
     font-size: 14px;
     gap: 20px;
     align-content: center;
-}
+} 
 .article1 { 
     margin-top: 40px;
 }
@@ -201,8 +218,10 @@ footer {
     margin: 40px 86px 20px 87;
 }
 
-.artfooter1, .artfooter2 {
+.artfooter3, .artfooter4 {
     text-transform: uppercase;
+    text-align: center;
+    list-style: none;
 }
 
 a.link {
@@ -210,7 +229,7 @@ a.link {
     color: white;
 }
 
-.artfooter1, .artfooter2, .artfooter3, .artfooter4 {
+.artfooter1, .artfooter2, .artfooter3,.artfooter4{
     text-align: center;
     list-style: none;
 }
@@ -263,7 +282,7 @@ a.link {
     .sec2h2 {
          font-size: 26px;
     }
-    .ico-arrow{
+    .icoarrow{
         margin: 50px 361px 217px 362px;
     }
     .article1 {

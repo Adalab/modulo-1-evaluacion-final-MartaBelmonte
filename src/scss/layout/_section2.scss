@@ -1,0 +1,65 @@
+.section2 {
+    background-color: #eff9ff;
+    height: 550px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 120px 120px 90px;
+}
+
+.sec2h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    padding: 30px 15px 15px;
+    height: 60px;
+}
+
+.item1,
+.item3,
+.item5 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+
+}
+
+.item2,
+.item4,
+.item6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 180px;
+    height: 63px;
+    text-align: center;
+}
+
+.boton2 {
+    background-color: #f26002;
+    width: 184px;
+    height: 45px;
+    border-radius: 22px;
+    margin: 20px 0 50px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+a.morereasons {
+    text-decoration: none;
+}
+
+.morereasons {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 45px;
+    color: white;
+}
+
+.ico-arrow {
+    width: 45px;
+    height: 45px;
+    margin: 200px 145px 310px 140px;
+    background-color: white;
+    border-radius: 50%;
+}

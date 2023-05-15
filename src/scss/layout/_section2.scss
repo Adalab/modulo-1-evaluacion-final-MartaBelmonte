@@ -7,7 +7,7 @@
     grid-template-rows: 120px 120px 90px;
 
     &__sec2h2 {
-        font-family: 'Roboto Slab', serif;
+        font-family: var(--font-secundary);
         font-size: 24px;
         padding: 30px 15px 15px;
         height: 60px;
@@ -17,7 +17,7 @@
 .item1,
 .item3,
 .item5 {
-    font-family: 'Roboto Slab', serif;
+    font-family: var(--font-secundary);
     font-size: 18px;
     width: 180px;
     height: 30px;
@@ -28,7 +28,7 @@
 .item2,
 .item4,
 .item6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-main);
     font-size: 18px;
     width: 180px;
     height: 63px;
@@ -36,7 +36,7 @@
 }
 
 .boton2 {
-    background-color: #f26002;
+    background-color: var(--font-secundary);
     width: 184px;
     height: 45px;
     border-radius: 22px;
@@ -50,17 +50,17 @@ a.morereasons {
 }
 
 .morereasons {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-main);
     font-size: 20px;
     line-height: 45px;
-    color: white;
+    color: var(--first-color);
 }
 
 .icoarrow {
     width: 45px;
     height: 45px;
     margin: 200px 145px 310px 140px;
-    background-color: white;
+    background-color: var(--first-color);
     border-radius: 50%;
 }
 

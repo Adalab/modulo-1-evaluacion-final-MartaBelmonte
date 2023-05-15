@@ -40,133 +40,29 @@ a.link {
 }
 
 @media screen and (min-width: 768px) {
-  .hero__title {
-    font-size: 80px;
-    line-height: 106px;
-    margin-top: 35%;
+.footer {
+  flex-direction: row;
+  justify-content: space-around;
+}
+.article1 {
+  order: 2;
   }
-
-  .hero__phero {
-    font-size: 24px;
-  }
-
-  .hero__circle {
-    margin: 50px 122px 0 360px;
-  }
-
-  .section1 {
-    margin: 50px;
-  }
-
-  .psec2 {
-    font-size: 26px;
-  }
-
-  .artisec1 {
-    font-size: 20px;
-  }
-
-  .boton {
-    width: 76px;
-  }
-
-  .section2 {
-    height: 400px;
-  }
-
-  .item1,
-  .item3,
-  .item5 {
-    font-size: 24px;
-    width: 210px;
-    height: 30px;
-  }
-
-  .item2,
-  .item4,
-  .item6 {
-    font-size: 20px;
-  }
-
-  .boton2 {
-    margin-top: 30px;
-  }
-
-  .sec2grid {
-    display: flex;
-    column-gap: 70px;
-  }
-
-  .divtext {
-    width: 200px;
-  }
-
-  .section2__sec2h2 {
-    font-size: 26px;
-  }
-
-  .icoarrow {
-    margin: 50px 361px 217px 362px;
-  }
-
-  .article1 {
-    order: 2;
-  }
-
-  .article2 {
-    order: 3;
-  }
-
-  .footer {
-    flex-direction: row;
-    justify-content: space-around;
-  }
+.article2 {
+  order: 3;
+}
 }
 
 @media screen and (min-width: 1280px) {
-  .hero__title {
-    font-size: 100px;
-    line-height: 132px;
-    margin: 1200px 250px 0 231px;
-  }
-
-  .hero__circle {
-    margin: 30px 342px 0 615px;
-  }
-
-  .section1 {
-    height: 230px;
-    margin: 30px 300px 0;
-  }
-
-  .psec2 {
-    font-size: 32px;
-  }
-
-  .boton {
-    width: 160px;
-  }
-
-  .boton2 {
-    width: 255px;
-  }
-
-  .article1 {
+.article1 {
     order: 2;
   }
-
   .article2 {
     order: 3;
   }
-
   .footer {
     justify-content: center;
   }
-
-  .article1,
-  .article2,
-  .article3,
-  .article4 {
+  .article1, .article2, .article3, .article4 {
     margin: 40px;
   }
 }

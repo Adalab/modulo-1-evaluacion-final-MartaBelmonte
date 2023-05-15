@@ -1,4 +1,4 @@
-footer {
+.footer {
   background-color: #304268;
   color: white;
   display: flex;
@@ -19,9 +19,10 @@ footer {
   margin: 40px 86px 20px 87;
 }
 
-.artfooter1,
-.artfooter2 {
+.artfooter1, .artfooter2 {
   text-transform: uppercase;
+  text-align: center;
+  list-style: none;
 }
 
 a.link {

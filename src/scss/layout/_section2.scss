@@ -5,13 +5,13 @@
     justify-items: center;
     grid-template-columns: 1fr;
     grid-template-rows: 120px 120px 90px;
-}
 
-.sec2h2 {
-    font-family: 'Roboto Slab', serif;
-    font-size: 24px;
-    padding: 30px 15px 15px;
-    height: 60px;
+    &__sec2h2 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 24px;
+        padding: 30px 15px 15px;
+        height: 60px;
+    }
 }
 
 .item1,

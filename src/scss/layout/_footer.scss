@@ -19,7 +19,8 @@
   margin: 40px 86px 20px 87;
 }
 
-.artfooter1, .artfooter2 {
+.artfooter1,
+.artfooter2 {
   text-transform: uppercase;
   text-align: center;
   list-style: none;
@@ -39,17 +40,17 @@ a.link {
 }
 
 @media screen and (min-width: 768px) {
-  h1.title {
+  .hero__title {
     font-size: 80px;
     line-height: 106px;
     margin-top: 35%;
   }
 
-  p.phero {
+  .hero__phero {
     font-size: 24px;
   }
 
-  .circle {
+  .hero__circle {
     margin: 50px 122px 0 360px;
   }
 
@@ -100,11 +101,11 @@ a.link {
     width: 200px;
   }
 
-  .sec2h2 {
+  .section2__sec2h2 {
     font-size: 26px;
   }
 
-  .ico-arrow {
+  .icoarrow {
     margin: 50px 361px 217px 362px;
   }
 
@@ -116,20 +117,20 @@ a.link {
     order: 3;
   }
 
-  footer {
+  .footer {
     flex-direction: row;
     justify-content: space-around;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  h1.title {
+  .hero__title {
     font-size: 100px;
     line-height: 132px;
     margin: 1200px 250px 0 231px;
   }
 
-  .circle {
+  .hero__circle {
     margin: 30px 342px 0 615px;
   }
 
@@ -158,7 +159,7 @@ a.link {
     order: 3;
   }
 
-  footer {
+  .footer {
     justify-content: center;
   }
 

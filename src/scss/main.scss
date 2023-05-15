@@ -15,7 +15,8 @@
 }
 
 :root {
-// fonts
+
+//fonts
     --font-main: 'Roboto', sans-serif;
     --font-secundary: 'Roboto Slab', serif;
     
@@ -72,7 +73,7 @@
 
 .hero__title {
     font-size: 42px;
-    font-family: 'Roboto Slab', serif;
+    font-family: var(--font-secundary);
     line-height: 55px;
     text-transform: uppercase;
     display: flex;
@@ -81,7 +82,7 @@
 }
 
 .hero__phero{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-main);
     display: flex;
     justify-content: center;
 
@@ -104,17 +105,17 @@
 }
 .psec1{
     color: #8ccbea;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-main);
     font-size: 14px;
 }
 .psec2 {
-    font-family: 'Roboto Slab', serif;
+    font-family: var(--font-secundary);
     font-size: 24px;
 }
 
 .artsec1 {
     color: #4a4a4a;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-main);
     font-size: 18px;
 }
 
@@ -133,7 +134,7 @@ a.go {
 }
 .go {
     text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-main);
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -151,7 +152,7 @@ a.go {
     grid-template-columns: 1fr;
     grid-template-rows: 120px 120px 90px;
     &__sec2h2 {
-            font-family: 'Roboto Slab', serif;
+            font-family: var(--font-secundary);
             font-size: 24px;
             padding: 30px 15px 15px;
             height: 60px;      
@@ -159,7 +160,7 @@ a.go {
 }
 
 .item1, .item3, .item5 {
-    font-family: 'Roboto Slab', serif;
+    font-family: var(--font-secundary);
     font-size: 18px;
     width: 180px;
     height: 30px;
@@ -167,7 +168,7 @@ a.go {
     
 }
 .item2, .item4, .item6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-main);
     font-size: 18px;
     width: 180px;
     height: 63px;
@@ -188,7 +189,7 @@ a.morereasons{
     text-decoration: none;
 }
 .morereasons {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-main);
     font-size: 20px;
     line-height: 45px;
     color: var(--first-color)
@@ -209,7 +210,7 @@ a.morereasons{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-main);
     line-height: 30px;
     font-size: 14px;
     gap: 20px;

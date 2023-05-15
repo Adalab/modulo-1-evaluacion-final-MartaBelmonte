@@ -13,6 +13,18 @@
     box-sizing: border-box;
 }
 
+
+:root {
+// fonts
+    --font-main: 'Roboto', sans-serif;
+    --font-secundary: 'Roboto Slab', serif;
+    
+// colors
+    --first-color: white;
+    --second-color: #f26002;
+}
+
+
 /*--header--*/
 
 .icoburguer {
@@ -40,14 +52,14 @@
     width: 100%;
     height: 100vh;
     gap: 5vh;
-    color: white;
+    color: var(--first-color)
 }
 
 .hero__circle{
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background-color: white;
+    background-color: var(--first-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,7 +124,7 @@
     border-radius: 20px;
     height: 45px;
     width: 76px;
-    border: solid 2px #f26002;
+    border: solid 2px var(--second-color);
     
 }
 
@@ -163,7 +175,7 @@ a.go {
 }
 
 .boton2 {
-    background-color: #f26002;
+    background-color: var(--second-color);
     width: 184px;
     height: 45px;
     border-radius: 22px;
@@ -179,21 +191,21 @@ a.morereasons{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     line-height: 45px;
-    color: white;
+    color: var(--first-color)
 }
 
 .icoarrow {
     width: 45px;
     height: 45px;
     margin: 200px 145px 310px 140px;
-    background-color: white;
+    background-color: var(--first-color);
     border-radius: 50%;
 }
 
 /*--footer--*/
 .footer {
     background-color: #304268;
-    color: white;
+    color: var(--first-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -219,7 +231,7 @@ a.morereasons{
 
 a.link {
     text-decoration: none;
-    color: white;
+    color: var(--first-color)
 }
 
 .artfooter1, .artfooter2, .artfooter3,.artfooter4{

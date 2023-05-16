@@ -1,13 +1,13 @@
 /*
-@import 'core/reset';
-@import 'layout/header';
-@import 'layout/header';
-@import 'layout/main';
-@import 'layout/section1';
-@import 'layout/section2';
-@import 'layout/footer';
-*/
+@import '../scss/core/reset';
+@import '../scss/core/variables';
+@import '../scss/layout/header';
+@import '../scss/layout/main';
+@import '../scss/layout/section1';
+@import '../scss/layout/section2';
+@import '../scss/layout/footer';
 
+*/
 * {
     margin: 0px;
     padding: 0;

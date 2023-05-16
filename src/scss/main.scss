@@ -1,11 +1,12 @@
 /*
-@import 'core/reset';
-@import 'layout/header';
-@import 'layout/header';
-@import 'layout/main';
-@import 'layout/section1';
-@import 'layout/section2';
-@import 'layout/footer';
+@import '../scss/core/reset';
+@import '../scss/core/variables';
+@import '../scss/layout/header';
+@import '../scss/layout/main';
+@import '../scss/layout/section1';
+@import '../scss/layout/section2';
+@import '../scss/layout/footer';
+
 */
 
 * {
@@ -118,7 +119,7 @@
     font-size: 18px;
 }
 
-.boton {
+.botom {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
@@ -174,7 +175,7 @@ a.go {
     text-align: center;
 }
 
-.boton2 {
+.botom2 {
     background-color: var(--second-color);
     width: 184px;
     height: 45px;
@@ -274,7 +275,7 @@ a.link {
     .item2, .item4, .item6 {
         font-size: 20px;
         }
-    .boton2 {
+    .botom2 {
         margin-top: 30px;
     }
     .sec2grid {
@@ -317,10 +318,10 @@ a.link {
     .psec2 {
         font-size: 32px;
     }
-    .boton {
+    .botom {
         width: 160px;
     }
-    .boton2 {
+    .botom2 {
         width: 255px;
     }
     .article1 {

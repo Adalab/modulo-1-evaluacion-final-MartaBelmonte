@@ -3,33 +3,32 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
-
 }
 
 .psec1 {
     color: #8ccbea;
-    font-family: var(--font-main);
+    font-family: $font-main;
     font-size: 14px;
 }
 
 .psec2 {
-    font-family: var(--font-secundary);
+    font-family:$font-secundary;
     font-size: 24px;
 }
 
 .artsec1 {
     color: #4a4a4a;
-    font-family: var(--font-main);
+    font-family:$font-main;
     font-size: 18px;
 }
 
-.boton {
+.botom {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
     height: 45px;
     width: 76px;
-    border: solid 2px var(--font-secundary);
+    border: solid 2px $second-color;
 
 }
 
@@ -39,12 +38,12 @@ a.go {
 
 .go {
     text-transform: uppercase;
-    font-family: var(--font-main);
+    font-family: $font-main;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
     margin: auto;
-    color: var(--font-secundary);
+    color: $second-color;
 }
 
 @media screen and (min-width: 768px) {

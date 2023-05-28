@@ -1,4 +1,4 @@
-.footer {
+.nav1 {
   background-color: #304268;
   color: $first-color;
   display: flex;
@@ -9,14 +9,10 @@
   font-size: 14px;
   gap: 20px;
   align-content: center;
-}
 
-.article1 {
+    &__article1 {
   margin-top: 40px;
 }
-
-.article2 {
-  margin: 40px 86px 20px 87;
 }
 
 .artfooter1, .artfooter2 {
@@ -36,29 +32,32 @@ a.link {
 }
 
 @media screen and (min-width: 768px) {
-.footer {
+.nav1 {
   flex-direction: row;
   justify-content: space-around;
 }
-.article1 {
+.artfooter1 {
   order: 2;
   }
-.article2 {
+.artfooter2 {
   order: 3;
 }
+
 }
 
 @media screen and (min-width: 1280px) {
-.article1 {
-    order: 2;
-  }
-  .article2 {
+  
+  .artfooter2 {
     order: 3;
   }
-  .footer {
+  .nav1 {
     justify-content: center;
+  
+    &__article1 {
+      order: 2;
+    }
   }
-  .article1, .article2, .article3, .article4 {
+  .artfooter1, .artfooter2, .article3, .article4 {
     margin: 40px;
   }
 }
